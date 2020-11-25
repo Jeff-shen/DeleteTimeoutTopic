@@ -26,7 +26,7 @@
 -o ./kafka/zk_client_log/outfile.20201125_15:35:17 
 -t 3600 
 -p /brokers/topics
-# How Use delete_timeout_node.sh
+# How to use delete_timeout_node.sh
  
  - put both delete_timeout_node.sh and zk_client to kafka root directory
  - set timer to execute delete_timeout_node.sh
