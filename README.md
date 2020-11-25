@@ -6,7 +6,7 @@
 - cd build
 - cmake ..
 - make
-# Parm
+# zk_client Param
 
 -h：
 	zookeeper host:port 
