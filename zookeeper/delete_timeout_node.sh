@@ -8,9 +8,9 @@ zk_client=${kafka_root}/zk_client
 zk_client_log_dir=${kafka_root}/zk_client_log
 
 #parm
-zoo_host="9.134.54.207:2181"
+zoo_host="127.0.0.1:2181"
 node_path="/brokers/topics"
-kafka_host="9.134.54.207:9092"
+kafka_host="127.0.0.1:9092"
 time_out=3600
 
 if [ ! -e "${zk_client}" ]
