@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.1)
+project(zk_client)
+set(CMAKE_CXX_STANDARD 11)
+aux_source_directory(src zk_src)
+link_directories(./src/lib)
+add_executable (zk_client  ${zk_src})
+target_include_directories(zk_client PUBLIC  ./src/lib)
+target_link_libraries(zk_client libzookeeper_mt.a -lssl -lcrypto -lm -lrt -lpthread  -Wl,-soname)
