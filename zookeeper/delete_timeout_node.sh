@@ -3,7 +3,7 @@
 set -x
 
 #env
-kafka_root=/data/home/feishen/kafka
+kafka_root=~/kafka
 zk_client=${kafka_root}/zk_client
 zk_client_log_dir=${kafka_root}/zk_client_log
 
